@@ -1,0 +1,98 @@
+header {
+    border-bottom: 1px solid #1a1a1a;
+    background: rgba(5, 5, 5, 0.9);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menuNav {
+    margin: 1.5px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.menuNav a {
+    color: #555;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 15px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    position: relative;
+}
+.contBoton button{
+    background: transparent;
+    color: #00ff41;
+    border: 1px solid #00ff41;
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.contBoton button:hover {
+    background: #00ff41;
+    color: #000;
+}
+.contLogo img{
+    width: 150px;
+    display: block;
+    height: auto;
+}
+body {
+    margin: 0;
+    background-color: #080808;
+    color: #b0b0b0;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden;
+}
+.Relleno {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.servicios {
+    padding: 50px;
+    text-align: center;
+    background-color: #050505;
+}
+.servicios h2 {
+    color: #00ff41;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}  
+.contenedor-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.card {
+    background: #0a0a0a;
+    border: 1px solid #1a1a1a;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+}
+.pie-pagina {
+    background-color: #000;
+    color: #444;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #1a1a1a;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
